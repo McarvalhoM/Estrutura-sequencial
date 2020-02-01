@@ -13,3 +13,4 @@ else:
     print('joao pescou', pescado, 'kg de peixe')
     print('joao pescou', excesso, 'kg de peixe em excesso')
     print('joao ira pagar', multa, 'R$ de multa')
+    
