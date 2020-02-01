@@ -7,7 +7,7 @@ pescado= float(input('Digite o valor que Joao pescou'))
 if pescado <= 50:
     print('joao pescou', pescado, 'kg de peixe')
     print('joao nao pescou em excesso, portanto, nao pagara multa')
-elif pescado > 50:
+else:
     excesso= float((pescado - 50))
     multa= (excesso*4)
     print('joao pescou', pescado, 'kg de peixe')
